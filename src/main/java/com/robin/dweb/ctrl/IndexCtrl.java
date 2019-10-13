@@ -8,6 +8,7 @@ public class IndexCtrl{
   public String index(){
     int age=33;
     String add="";
+    int aa =3;
     return "index";
   }
 }
