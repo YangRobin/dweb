@@ -7,6 +7,7 @@ public class IndexCtrl{
   @RequestMapping(value = "/")
   public String index(){
     int age=33;
+    String add="";
     return "index";
   }
 }
