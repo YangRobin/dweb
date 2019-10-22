@@ -13,12 +13,9 @@ import org.springframework.test.context.junit4.SpringRunner;
 @SpringBootTest
 public class DwebApplicationTests {
 
-	@Autowired
-	private ElasticsearchTemplate est;
 
 	@Test
 	public void contextLoads() {
-		est.createIndex(Item.class);
 	}
 
 }
